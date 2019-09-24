@@ -25,5 +25,24 @@ namespace Excercise03
             for (int i = 0; i < n; i++)
                 Console.WriteLine(c);
         }
+        static void DLine(int n, char c)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Hline(i, ' ');
+                Console.WriteLine(" " + c);
+            }
+        }
+
+        static void DrawTriagle(int n, char c)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 1; j < n; j++)
+                {
+
+                }
+            }
+        }
     }
 }
